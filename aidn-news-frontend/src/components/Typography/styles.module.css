@@ -1,0 +1,45 @@
+
+.typography {
+  color: var(--text-color);
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+}
+
+.header2 {
+  font-size: var(--font-size--header-2);
+  font-weight: var(--font-weight--bold);
+  line-height: 26px;
+}
+
+.header3 {
+  font-size: var(--font-size--header-3);
+  font-weight: var(--font-weight--bold);
+  line-height: 24px;
+}
+
+.small14 {
+  font-size: var(--font-size--small-14);
+  font-weight: var(--font-weight--normal);
+  line-height: 16.94px;
+}
+
+.standard20 {
+  font-size: var(--font-size--header-2);
+  font-weight: var(--font-weight--normal);
+  line-height: 26px;
+}
+
+.standard16 {
+  font-size: var(--font-size--standard-16);
+  font-weight: var(--font-weight--normal);
+  line-height: 24px;
+}
+
+.primary {
+  color: var(--text-color);
+}
+
+.secondary {
+  color: var(--text-color-secondary);
+}

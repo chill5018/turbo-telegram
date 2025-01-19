@@ -1,0 +1,13 @@
+
+.input {
+  border: 1px solid rgba(116, 36, 218, 0.05);
+  background-color: var(--background-pink);
+  width: 100%;
+  padding: 10px 24px 12px;
+  outline: none;
+  transition: border-color 0.3s ease;
+
+  &:focus {
+    border-color: rgba(116, 36, 218, 0.5);
+  }
+}
