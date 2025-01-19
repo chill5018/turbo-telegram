@@ -30,7 +30,7 @@ export const NewsForm = () => {
 
   /**
    * NOTE: Comment out min max for server errors
-   * 
+   *
    *  */
 
   return (
@@ -73,7 +73,7 @@ export const NewsForm = () => {
         </div>
       </form>
       <ScoreCard score={formState.score} />
-      <div className="w-full">
+      <div className="w-full max-w-80">
         {formState?.message || ""}
       </div>
     </>

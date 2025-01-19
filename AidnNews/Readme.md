@@ -1,17 +1,17 @@
-# AidnNews 
+# AidnNews
 
 A Backend for the Aidn NEWS Calculator:
 
 Written in C# + .Net
 
-Architecture: Ports and Adapters approach for scalability within larger projects.
+Architecture: Ports and Adapters approach for scalability within larger projects. (AidnNews/Domain is the entry point)
 
 
 ## Future Improvements:
 * Better defaults for Swagger UI
-* DB for Storing customer scores and charting for montioring trends
+* DB for Storing customer scores and charting for monitoring trends
 
-TODO:
+
 * PostgreSQL and how that would be modelled.
 
 If we wanted to track a user's News Score over time.

@@ -15,15 +15,15 @@ export async function calculateScore(
   const ENDPOINT = `${API_URL}/NEWS/calculate`
 
   if (!HR) {
-    return { message: "Heart Rate Not Filled", payload: formData }
+    return { message: "Heart Rate is not filled", payload: formData }
   }
 
   if (!RR) {
-    return { message: "Respiratory is Not Filled", payload: formData }
+    return { message: "Respiratory is not filled", payload: formData }
   }
 
   if (!TEMP) {
-    return { message: "TEMP is Not Filled", payload: formData }
+    return { message: "Body temperature is not filled", payload: formData }
   }
 
   const body = {
